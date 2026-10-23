@@ -16,7 +16,7 @@ export default function AboutUs() {
   return (
     <>
       {/* Header */}
-      <PageHeader title="About Us" subtitle="Know the advocate who will stand by your case." image={lawyer.photo} />
+      <PageHeader title="About Us" subtitle="Know the advocate who will stand by your case and problem." image={lawyer.photo} />
 
       {/* Lawyer intro */}
       <section className="mx-auto grid max-w-6xl items-start gap-12 px-4 py-20 lg:grid-cols-5">
