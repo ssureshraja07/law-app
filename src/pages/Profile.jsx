@@ -77,7 +77,7 @@ export default function Profile() {
 
                 <div className="mt-5 grid gap-3">
                   <Link
-                    to="/appointments"
+                    to="/contact"
                     className="rounded-md bg-slate-900 px-5 py-3 text-center font-semibold text-white transition hover:bg-amber-600"
                   >
                     Book Appointment
@@ -310,7 +310,7 @@ export default function Profile() {
           <h2 className="font-serif text-3xl font-semibold text-slate-900">Want to speak with {lawyer.name}?</h2>
           <p className="mt-3 text-slate-600">Book a consultation and discuss your case in detail.</p>
           <Link
-            to="/appointments"
+            to="/contact"
             className="mt-6 inline-block rounded-md bg-slate-900 px-8 py-3 font-semibold text-white transition hover:bg-amber-600"
           >
             Book Appointment

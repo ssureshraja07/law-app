@@ -8,19 +8,19 @@ import team2 from "../images/team2.png";
 import team3 from "../images/team3.png";
 
 export const lawyer = {
-  name: "Adv. Your Name",
+  name: "Moorthy Law Firm",
   designation: "Advocate & Legal Consultant",
-  firm: "Your Name & Associates",
+  firm: "Moorthy Law Firm",
   photo: lawyerImg,
   officePhoto: officeImg,
   enrollmentNo: "TN/0000/2010", // Bar Council enrollment number
   barCouncil: "Bar Council of Tamil Nadu & Puducherry",
-  experience: "15+ Years",
+  experience: "20+ Years",
   languages: "Tamil, English, Hindi",
   location: "Madurai, Tamil Nadu",
   quote: "Law is not only about winning a case. It is about standing by people when they need it most.",
   bio: [
-    "Adv. Your Name is an experienced advocate practising in the District Courts and the Madras High Court, Madurai Bench. Over the last 15 years, he has handled criminal, civil, property and family matters for individuals, families and businesses.",
+    "An experienced advocate practising in the District Courts and the Madras High Court, Madurai Bench. Over the last 15 years, he has handled criminal, civil, property and family matters for individuals, families and businesses.",
     "His approach is simple: understand the client's problem fully, explain the legal options honestly, and prepare every case with care. Clients value his clear communication and regular updates after every hearing.",
   ],
 };
@@ -71,9 +71,9 @@ export const team = [
 export const profileBanner_ = profileBanner;
 
 export const profileIntro = {
-  headline: "Who is Adv. Your Name?",
+  headline: "Moorthy Law Firm",
   paragraphs: [
-    "Adv. Your Name is a practising advocate with over 15 years of experience in the District Courts and the Madras High Court, Madurai Bench. He is known for thorough case preparation, clear communication and a calm, practical approach to even the most stressful disputes.",
+    "Moorthy is a practising advocate with over 20+ years of experience in the District Courts and the Madras High Court, Madurai Bench. He is known for thorough case preparation, clear communication and a calm, practical approach to even the most stressful disputes.",
     "Born and raised in Madurai, he chose law to help ordinary people understand and protect their rights. Today he leads a team of advocates and associates who handle criminal, civil, property, family and business matters.",
   ],
 };
@@ -90,13 +90,13 @@ export const expertise = [
 export const career = [
   {
     role: "Founder & Senior Advocate",
-    org: "Your Name & Associates",
+    org: "Moorthy Law Firms",
     period: "2013 - Present",
     text: "Leads the firm and personally handles criminal, civil and High Court matters.",
   },
   {
     role: "Junior Advocate",
-    org: "Chambers of Senior Advocate (Name)",
+    org: "Chambers of Senior Advocate",
     period: "2010 - 2013",
     text: "Trained in trial work, drafting and court procedure under a senior advocate.",
   },

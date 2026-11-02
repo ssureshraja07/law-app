@@ -200,7 +200,7 @@ export default function AboutUs() {
           <h2 className="font-serif text-3xl font-semibold text-white">Let's discuss your case</h2>
           <p className="mt-3 text-slate-300">Book an appointment and get clear legal guidance.</p>
           <Link
-            to="/appointments"
+            to="/contact"
             className="mt-6 inline-block rounded-md bg-amber-500 px-8 py-3 font-semibold text-slate-950 transition hover:bg-amber-400"
           >
             Book Appointment

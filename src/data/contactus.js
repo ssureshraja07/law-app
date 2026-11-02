@@ -5,10 +5,10 @@ import bannerImg from "../images/contact-banner.png";
 export const contact = {
   officeImg,
   bannerImg,
-  phone: "+91 98765 43210",
-  phoneLink: "tel:+919876543210",
-  whatsappNumber: "919876543210", // country code + number, no + or spaces
-  email: "contact@yourlawfirm.com",
+  phone: "+91 707107 16363",
+  phoneLink: "tel:+9170710716363",
+  whatsappNumber: "9170710716363", // country code + number, no + or spaces
+  email: "harshavtechs.com",
   addressLines: ["No. 12, Court Road, Near District Court", "Madurai, Tamil Nadu - 625 001"],
   hours: [
     { day: "Monday - Friday", time: "10:00 AM - 6:00 PM" },

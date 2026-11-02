@@ -93,7 +93,7 @@ export default function HeroSlider() {
                 </p>
                 <div {...item(900)} className={`mt-8 flex flex-wrap gap-3 ${item(900).className}`}>
                   <Link
-                    to="/appointments"
+                    to="/contact"
                     className="rounded-md bg-amber-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-amber-400"
                   >
                     Book Appointment

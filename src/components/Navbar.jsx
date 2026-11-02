@@ -4,6 +4,7 @@ import { useMounted } from "./Reveal";
 import SocialIcon from "./SocialIcon";
 import { contact } from "../data/contactus";
 import { lawyer } from "../data/lawyer";
+import lawLogo from "../images/law-logo.png";
 
 const links = [
   { to: "/", label: "Home" },
@@ -146,45 +147,33 @@ export default function Navbar() {
             scrolled ? "h-16" : "h-20"
           }`}
         >
-          {/* Logo */}
-          <Link
-            to="/"
-            style={pop(0).style}
-            className={`flex items-center gap-3 ${pop(0).className}`}
-            aria-label={`${lawyer.name} home`}
-          >
-            <span
-              className={`flex items-center justify-center rounded-lg bg-slate-900 text-amber-400 shadow-md transition-all duration-300 ${
-                scrolled ? "h-10 w-10" : "h-12 w-12"
-              }`}
-            >
-              {/* scales of justice */}
-              <svg
-                className="h-6 w-6"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.6"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M12 3v18" />
-                <path d="M7 21h10" />
-                <path d="M5 7h14" />
-                <path d="M5 7l-3 7a3.5 3.5 0 0 0 7 0L5 7z" />
-                <path d="M19 7l-3 7a3.5 3.5 0 0 0 7 0L19 7z" />
-              </svg>
-            </span>
-            <span className="leading-tight">
-              <span className="block font-serif text-lg font-semibold text-slate-900 sm:text-xl">
-                {lawyer.name}
-              </span>
-              <span className="hidden text-[11px] font-medium uppercase tracking-[0.18em] text-amber-700 sm:block">
-                {lawyer.designation}
-              </span>
-            </span>
-          </Link>
+         {/* Logo */}
+<Link
+  to="/"
+  style={pop(0).style}
+  className={`flex items-center gap-3 ${pop(0).className}`}
+  aria-label={`${lawyer.name} home`}
+>
+  <span
+    className={`flex items-center justify-center overflow-hidden rounded-lg shadow-md transition-all duration-300 ${
+      scrolled ? "h-10 w-10" : "h-12 w-12"
+    }`}
+  >
+    <img
+      src={lawLogo}
+      alt={`${lawyer.name} logo`}
+      className="h-full w-full object-contain"
+    />
+  </span>
+  <span className="leading-tight">
+    <span className="block font-serif text-lg font-semibold text-slate-900 sm:text-xl">
+      {lawyer.name}
+    </span>
+    <span className="hidden text-[11px] font-medium uppercase tracking-[0.18em] text-amber-700 sm:block">
+      {lawyer.designation}
+    </span>
+  </span>
+</Link>
 
           {/* Desktop links */}
           <ul className="hidden items-center gap-8 md:flex">

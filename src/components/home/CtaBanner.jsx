@@ -12,7 +12,7 @@ export default function CtaBanner() {
         <h2 className="font-serif text-3xl font-semibold text-white md:text-4xl">Need legal advice? Let's talk.</h2>
         <p className="mt-4 text-slate-200">Book an appointment and tell us about your case.</p>
         <Link
-          to="/appointments"
+          to="/contact"
           className="mt-8 inline-block rounded-md bg-amber-500 px-8 py-3 font-semibold text-slate-950 transition hover:bg-amber-400"
         >
           Book Appointment

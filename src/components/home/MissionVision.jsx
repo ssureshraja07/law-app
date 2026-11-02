@@ -1,7 +1,7 @@
 import Reveal from "../Reveal";
 
-import law3 from "../../images/home-law3.png";
-import law2 from "../../images/home-law3.png";
+import law3 from "../../images/home-law4.png";
+import law2 from "../../images/home-law5.png";
 
 
 export default function MissionVision() {

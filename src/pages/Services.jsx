@@ -108,7 +108,7 @@ export default function Services() {
             We handle many more matters. Tell us about your problem and we will guide you.
           </p>
           <Link
-            to="/appointments"
+            to="/contact"
             className="mt-6 inline-block rounded-md bg-slate-900 px-8 py-3 font-semibold text-white transition hover:bg-amber-600"
           >
             Book Appointment
